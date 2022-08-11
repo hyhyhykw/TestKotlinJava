@@ -1,5 +1,7 @@
 package com.testjavakotlin;
 
+import android.view.View;
+
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 
@@ -17,6 +19,7 @@ public class TestAdapter extends BaseQuickAdapter<String, BaseViewHolder> {
 
     @Override
     protected void convert(@NonNull BaseViewHolder holder, String str) {
+        View itemView =holder.itemView;
         int adapterPosition = holder.getAdapterPosition();
         int bindingAdapterPosition = holder.getBindingAdapterPosition();
     }
