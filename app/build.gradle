@@ -36,9 +36,9 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.2'
 
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    //https://github.com/square/okhttp
+    //https://github.com/square/okhttp (kotlin)
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'
-    //https://github.com/CymChad/BaseRecyclerViewAdapterHelper    RecyclerView adapter
+    //https://github.com/CymChad/BaseRecyclerViewAdapterHelper (kotlin)    RecyclerView adapter
     implementation 'com.github.hyhyhykw:BaseRecyclerViewAdapterHelper:3.0.7'
 
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.13.2'
